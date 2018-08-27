@@ -7,7 +7,7 @@ I trained two agents
 2. A double DQN agent that does an argmax over the local Q network to get the actions following the next states. 
 
 # DQN vs Double DQN
-![]("./score_comparison.png")
+![](score_comparison.png)
 
 
 # Discussion
