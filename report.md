@@ -5,6 +5,14 @@ I trained two agents
    
 I used the same hyper-parameters for both:
 
+* BUFFER_SIZE = int(1e5) (replay buffer size)
+* BATCH_SIZE = 64        (minibatch size)
+* GAMMA = 0.99           (discount factor)
+* TAU = 1e-3             (for soft update of target parameters)
+* LR = 5e-4              (learning rate)
+* UPDATE_EVERY = 4       (how often to update the network)
+
+
 # Q-Function Model Description
 The Q function model is a feedforward neural network with 37 input units with two hidden layers of 64 units and relu activations and a final linear output layer of 4 outputs.
 
