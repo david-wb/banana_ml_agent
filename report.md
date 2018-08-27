@@ -11,4 +11,4 @@ I trained two agents
 
 
 # Discussion
-Double DQN does not seem to affect performance significantly on this toy problem. I suspect it may help more with the pixel version and I plan to test that. 
+Double DQN does not seem to affect performance significantly on this toy problem. I suspect it may help more with the pixel version. 
